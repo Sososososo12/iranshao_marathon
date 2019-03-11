@@ -3,10 +3,11 @@ from comment import cut_sentence
 import pandas as pd
 import xlrd
 
-data = xlrd.open_workbook(filename=r'./cut_sentence.xls')
+data = xlrd.open_workbook(filename=r'./cut_duplicates.xlsx')
 sheet1 = data.sheet_by_index(0)
-comment_input = sheet1.col_values(0)
+comment_input = sheet1.col_values(2)
 # people_id = sheet1.col_values(1)
+print(comment_input)
 
 
 output_sentence=[]
