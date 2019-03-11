@@ -13,7 +13,7 @@ def stopwordslist(filepath):
 # 对句子进行分词
 def seg_sentence(sentence):
     sentence_seged = jieba.cut(sentence.strip())
-    stopwords = stopwordslist('./based/stopwords_marathon.txt')  # 这里加载停用词的路径
+    stopwords = stopwordslist('./based/stopwords_marathon_setiments.txt')  # 这里加载停用词的路径
     outstr = ''
     for word in sentence_seged:
         if word not in stopwords:
