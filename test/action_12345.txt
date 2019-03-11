@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>《杭马—梦开始的地方》by 韩七燮 - 爱燃烧</title>
+    <meta name="keywords" content="运动,跑鞋,减肥,马拉松,跑步,跑步鞋,比赛,比赛照片,装备,慢跑,跑步减肥,女生跑步,比赛报名,马拉松报名,比赛控,爱燃烧">
+    <meta name="description" content="爱燃烧与你分享比赛、装备、训练等多元化跑步资讯，提供赛事一键报名、比赛信息查询等服务，开设丰富多彩的用户原创活动，是你身边的中文跑步运动社区，愿成为你的运动健康第一站。">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"555569109f","applicationID":"2084834","transactionName":"IVpfFUZXDV9SQk1XDwNHWARHFxJbWEc=","queueTime":0,"applicationTime":143,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwUPUVRSGwEAXFVaBAU="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+    <link href="https://assets2.iranshao.com/assets/application_v3-bd7dfc2d20d4de73a88cf6f426ead9c3.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="https://assets2.iranshao.com/assets/application_v3-2913c58efaef26d073d59dfcdb371975.js" type="text/javascript"></script>
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="hjAoDh9Zg05mq8evaOn8hY34tot5GItrpCth0ucpJKo=" name="csrf-token" />
+    <!--[if IE]>
+    <script src="https://assets2.iranshao.com/html5.min.js"></script>
+    <![endif]-->
+
+    <meta name="apple-mobile-web-app-title" content="爱燃烧">
+<link rel="apple-touch-icon" sizes="57x57" href="http://pic2.iranshao.com/photo/image/rj9jysipcey9dvskgnbz5bmkqdf283mbqfhldp8a.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://pic2.iranshao.com/photo/image/qis66a6ic549b66wlfdmh8tb8y5xc7jdkr81xrt6.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://pic2.iranshao.com/photo/image/58s7rijq4etzae13skrmbvsrv681i9j6b7xsp5ol.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="http://pic2.iranshao.com/photo/image/ie7wu9dk2m0hfcij3nirqf68inixedaj9r9l20dl.png" />
+
+    <script type="text/javascript">
+  (function(para) {
+    var p = para.sdk_url, n = para.name, w = window, d = document, s = 'script',x = null,y = null;
+    w['sensorsDataAnalytic201505'] = n;
+    w[n] = w[n] || function(a) {return function() {(w[n]._q = w[n]._q || []).push([a, arguments]);}};
+    var ifs = ['track','quick','register','registerPage','registerOnce','clearAllRegister','trackSignup', 'trackAbtest', 'setProfile','setOnceProfile','appendProfile', 'incrementProfile', 'deleteProfile', 'unsetProfile', 'identify','login','logout','trackLink','clearAllRegister'];
+    for (var i = 0; i < ifs.length; i++) {
+      w[n][ifs[i]] = w[n].call(null, ifs[i]);
+    }
+    if (!w[n]._t) {
+      x = d.createElement(s), y = d.getElementsByTagName(s)[0];
+      x.async = 1;
+      x.src = p;
+      y.parentNode.insertBefore(x, y);
+      w[n].para = para;
+    }
+  })({
+    sdk_url: "https://assets2.iranshao.com/1.10.6sensorsdata.min.js",
+    name: "new_sa",
+    server_url: "https://iranshao.datasink.sensorsdata.cn/sa?project=iranshao&token=0a9b06394f4dda4e",
+    is_single_page: true,
+    cross_subdomain: true,
+    show_log: false,
+    heatmap:{
+      isTrackLink: false,
+      loadTimeout:  3000,
+      collect_url: function(){
+        return true;
+      },
+      //用户点击（a，button，input）这些元素时会触发这个函数，让你来判断是否要采集当前这个元素，返回真表示采集，返回假表示不采集。
+      //不设置这个函数，默认是采集 a button input 这些标签。
+      collect_element: function(element_target){
+          // 如果这个元素有属性sensors-disable=true时候，不采集
+        if(element_target.getAttribute('sensors-disable') === 'true'){
+          return false;
+        }else{
+          return true;
+        }
+      },
+      //考虑到用户隐私，这里可以设置input里的内容是否采集
+      //如果返回真，表示采集input内容，返回假表示不采集input内容,默认不采集
+      collect_input:function(element_target){
+          //例如如果元素的id是a，就采集这个元素里的内容
+        if(element_target.id === 'pickfiles'){
+          return false;
+        }
+      },
+      //假如要在 $WebClick 事件增加自定义属性，可以通过（a，button，input）这三类标签的特征来判断是否要增加
+      custom_property:function( element_target ){
+          if(element_target.getAttribute('data-screen-name') || element_target.getAttribute('data-bannerURL') || element_target.getAttribute('data-item-index') || element_target.getAttribute('data-button-name') || element_target.getAttribute('data-keyword') || element_target.getAttribute('data-state-begin')){
+              return {
+                  screenName: element_target.getAttribute('data-screen-name'),
+                  bannerURL: element_target.getAttribute('data-bannerURL'),
+                  buttonName: element_target.getAttribute('data-button-name'),
+                  itemIndexDup: parseInt(element_target.getAttribute('data-item-index')),
+                  keyword: element_target.getAttribute('data-keyword'),
+                  biStateBegin: element_target.getAttribute('data-state-begin')
+              }
+          }
+      },
+      // 设置触达图的有效停留时间，默认超过4秒以上算有效停留
+      scroll_delay_time: 4000
+    }
+  });
+  var register_page_params = {"category":"原创","project":"爱燃烧","isLoggedIn":false,"irsappOS":"other","webBrowser":"other","screenName":"原创详情页","screenURL":"http://iranshao.com/diaries/215642"};
+  new_sa.registerPage(register_page_params);
+  if(false === true){
+    new_sa.login("");
+  }
+  new_sa.quick('autoTrack');
+
+  $(document).on("click", '.js-sensors-event', function(e){
+    var self = this;
+    var saEvent = $(self).data('event');
+    var saParams = $(self).data('sa');
+    if(self.target=='_blank' || self.href===undefined){
+      window.new_sa.track(saEvent, saParams);
+    }else{
+      e.preventDefault();  
+      var hasCalled = false;
+      setTimeout(track_a_click, 400);  //如果没有回调成功，设置超时回调
+      function track_a_click(){
+        if (!hasCalled) {
+          hasCalled = true;
+          location.href = self.href;  //把 A 链接的点击跳转,改成 location 的方式跳转
+        }
+      }
+      window.new_sa.track(saEvent, saParams, track_a_click);
+    }
+  })
+</script>
+
+
+      <link href="https://assets2.iranshao.com/assets/favicon-3fbb4c2339869214b093b69e3136cdf1.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+    <link rel="dns-prefetch" href="//pic.iranshao.com">
+      <link rel="dns-prefetch" href="//www.google-analytics.com">
+      <link rel="dns-prefetch" href="//cdn.mxpnl.com">
+    <script type="text/javascript">
+  window.lastAccess = {"path":"/diaries/215642","controller":"diaries","action":"show"};
+  window.trackRace = '';
+  window.curRace = '';
+</script>
+  </head>
+
+  <body class="diaries_show">
+
+    <div id="flash_message" class='col-xs-8 col-md-4 col-xs-offset-2 col-md-offset-4'></div>
+        <div class="mod-head visible-sm visible-xs">
+  <a href="javascript:;" id="my-menu-custom" class="mod-icon mod-left icon-menu">
+    <span>导航</span>
+  </a>
+  <h1 class="mod-head-title">
+    <a href="/m" class="logo"><span>爱燃烧</span></a>
+  </h1>
+</div>
+
+<div class="page-header page-header-v2">
+  <div class="page-header-top">
+    <div class="container">
+      <div class="page-logo hidden-sm hidden-xs" id="logo_v1">
+        <a href="/" title="爱燃烧，运动不止于梦想">
+          <i>运动不止于梦想</i>
+        </a>
+      </div>
+
+      <ul class="page-nav hidden-sm hidden-xs">
+        <li class=""><a href="/" onclick="sa.track(&#x27;pc_home_click&#x27;, {&#x27;pageDetail&#x27;:&#x27;非首页&#x27;})">首页</a></li>
+        <li class=""><a href="/race" onclick="sa.track(&#x27;pc_race_click&#x27;, {&#x27;pageDetail&#x27;:&#x27;非首页&#x27;})">比赛</a></li>
+        <li class=""><a href="/gear" onclick="sa.track(&#x27;pc_gear_click&#x27;, {&#x27;pageDetail&#x27;:&#x27;非首页&#x27;})">装备</a></li>
+        <li class=""><a href="/articles" onclick="sa.track(&#x27;pc_article_click&#x27;, {&#x27;pageDetail&#x27;:&#x27;非首页&#x27;})">资讯</a></li>
+        <li class="active">
+          <a href="/diaries" onclick="sa.track(&#x27;pc_diary_click&#x27;, {&#x27;pageDetail&#x27;:&#x27;非首页&#x27;})">
+            原创
+</a>        </li>
+        <li class="">
+          <a href="/trials" onclick="sa.track(&#x27;pc_trial_click&#x27;, {&#x27;pageDetail&#x27;:&#x27;非首页&#x27;})">
+            众测
+</a>        </li>
+      </ul>
+
+      <div class="top-menu hidden-sm hidden-xs">
+        <ul class="nav navbar-nav pull-right">
+
+          
+
+          <li class="dropdown hover-dropdown">
+          </li>
+
+            <li class="dropdown">
+              <a href="/login" class="js-modal-login dropdown-toggle" data-position="登录注册">登录/注册</a>
+            </li>
+
+          <li class="dropdown hover-dropdown">
+            <a href="javascript:;" class="dropdown-toggle btn btn-icon-only btn-irs" data-toggle="dropdown" data-hover="dropdown" data-close-others="true" style="margin:10px 0 0 0; padding:7px 2px 0 3px">
+  <i class="fa fa-plus" style="color:#ffffff;"></i>
+</a>
+<ul class="dropdown-menu dropdown-menu-default">
+  <li>
+    <a href="/images/new" class="js-modal-login" data-return-to="/images/new" data-position="上传照片" >上传照片</a>
+  </li>
+
+  <li>
+    <a href="/races/new" class="js-modal-login" data-return-to="/races/new" data-position="创建比赛">创建比赛</a>
+  </li>
+
+  <li>
+    <a href="/gears/new" class="js-modal-login" data-return-to="/gears/new" data-position="发布装备">发布装备</a>
+  </li>
+
+  <li>
+    <a href="/diaries/new" class="js-modal-login" data-position="发布原创" data-return-to="/diaries/new">发布原创</a>
+  </li>
+
+  <li>
+    <a href="/results/search" class="js-modal-login" data-position="认领成绩" data-return-to="/results/search">认领成绩</a>
+  </li>
+</ul>
+
+          </li>
+        </ul>
+      </div>
+      <span class="hidden-sm hidden-xs">
+        <div class="top-search">
+  <form action="/s" method="get">
+    <div class="input-group">
+        <input type="text" name="q" class="form-control border-radius-left" placeholder="搜索比赛 选手 装备 测评 资讯" >
+        <span class="input-group-btn">
+            <button class="btn btn-default border-radius-right js-global-search" type="submit" data-screen-name="原创详情页" data-button-name="全局搜索" data-keyword="" >搜索</button>
+        </span>
+    </div>
+  </form>
+</div>
+
+<script type="text/javascript">
+  $(function(){
+    $("input[name='q']").on("input propertychange inputchage", function(){
+      $(".js-global-search").attr('data-keyword', $(this).val());
+    })
+  })
+</script>
+
+      </span>
+    </div>
+  </div>
+</div>
+
+
+    
+    <div class="content-header"></div>
+    <div class="content-container diaries">
+      <div class="container">
+        <div class="row">
+          <div class="diary_detail_pc">
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="mod-article mod">
+          <div class="mod-article-hd">
+            <img alt="46eef4e4611ef9b0ab28748042390b94" class="diary-cover" src="https://pic.iranshao.com/photo/image/46eef4e4611ef9b0ab28748042390b94.jpg!660x360" />
+            <h1>
+              杭马—梦开始的地方
+              <div class="title_tags">
+                <div class="tags">
+                </div>
+              </div>
+            </h1>
+
+            <div class="mod-article-meta">
+              <a href="/people/irs_1d4299" class="user-avatar-component"><img alt="6424f10adf55b52ab65db50229762459" src="https://avatar.iranshao.com/profile/avatar/6424f10adf55b52ab65db50229762459.jpg!small" /><span class="user-nickname">韩七燮</span><span class="user-level-label" style="background: linear-gradient(to bottom right, #DEDFED, #9496B1);">Lv.3</span></a>
+              <span style="margin-left: 30px;">2018-11-20 00:21:26</span>
+              <span>
+                  
+                  
+              </span>
+            </div>
+
+            <div class="mod-article-bd">
+              <div class="js-diary-body">
+                <p>&nbsp; &nbsp; &nbsp; &nbsp;以前做队里小编的时候有为队友编辑过很多文章，但那时没有一次写过自己，有时问起回答就是全马破三后再写，也许这是心中的一个坎，全马破三也是当初刚开始跑步时定下的目标成绩，但过了好几年却一直没做到，不是自己不努力，可能明明中有些过程必须经历，不然注定不完美，一路顺风的是天才，平民应该脚踏实地。<o></o></p><p style="text-align: center;"><img src="http://pic2.iranshao.com/o_1csmbrset15hp1ash1imtnve1su7h.jpg!watermark"></p><p><br></p><p>&nbsp; &nbsp; &nbsp; &nbsp;2015年有一天朋友圈一同事发了张跑完万米的照片，当时我惊呆了，不是他跑的有多快，而是我没想到身边的同事竟然能跑那么长的距离，万米那时对我来说是一个很遥远的距离，更别说什么马拉松了，在看到朋友圈有这样的事后，我深深的问了自己，如果我跑行吗？其实在学生时代也有过很长的跑步经历，从小学三年级就一直是校田径队，一跑就是8年主力，校队不像体校，专业队练的那么多那么勤，我们那时小学一天早晚二练，初中高中一天一练，也只是比赛前几个月才有训练而已，在我现在看来只是非常简单的跑步，没有太多训练技巧，知识，就是老师让你跑几圈，跑多少距离，没有那么多所谓的系统训练针对性指导，但从小我的记忆里，跑步就是我读书的一部分至到毕业，后来很多年没有再参加过跑步比赛，也没有什么训练，但运动一直有坚持，篮球一打7，8年要不是后来身边的好友同学都结婚生子没有伴了，估计还会再打几年，在告别篮球后运动也一直都有，简单的跑步机最多半小时，偶尔操场跑跑，那时没有什么GPS手表APP软件，就简单的数个圈，现在想想当时也就3000米吧，还跑的特别累好像跑完减肥大计会很有效果一样，那时的跑步只是为了保持身形，没有太多的其它想法，在被同事万米卡冲击后，对于我有跑过操场3000米的一点自信，所以决定挑战一下自己，没想到最后48分完成有点意外。在这之后宁波第一届城市马拉松也跟着马拉松热一起举办，做为跑步爱好者就那样踏入马拉松的行列，那一年是我跑马的开始。<o></o></p><p style="text-align: center;"><img src="http://pic2.iranshao.com/o_1csmbsb4vbij1tc4vjt5efkkrr.jpg!watermark"></p><p><br></p><p>&nbsp; &nbsp; &nbsp; &nbsp;做为初学者没有什么专业指导，一切全靠自己，买了一些跑步装备，就自己开始跑起来，但在刚接触跑步时，我还边跑边学习各种跑步知识，买了各种跑步书籍，关注各种公号，随着跑步热，网上跑步的信息越来越多，只要我们肯花时间精力去学习了解，都能学到很多跑步知识，在自己训练的5个月后就参加了首次比赛——宁波马拉松，报了一个半马最后95完成，在当时还算不错的成绩，其实和训练时比还是慢了2分钟，其中原因是经验不足，过度兴奋就是那种菜鸟问题比较多。在甬马后一周还拿到了一个杭马赞助商名额，那是一个全马，对于当时的我来说，全马有点早只有5个月，但感觉好不容易有这样的机会不想错过就硬着头皮上了，在杭马前其实只跑过一次东钱湖，还跑错了路，跑到撞墙为止，最后跑了34公里，当然有些是走出来的，所以当时我对杭马要求不高，只要能跑进4小时就好，在20公里后就明显出现训练不够，跑量不足的情况，路上喷了很多次云南白药去缓解疼苦，但在那个下雨的杭马，在34公里后终于渡过了最艰难时间段奋起直追，最后跑到了326，对于跑步5个月的我来说那么早破330后面会定更高的目标，破三的想法更加明确。<o></o></p><p style="text-align: center;"><img src="http://pic2.iranshao.com/o_1csmbsv611ck6r47jq0qi1v0n15.jpg!watermark"></p><p><br></p><p>&nbsp; &nbsp; &nbsp; &nbsp;2016年3月时隔杭马五个月后迎来无锡马拉松，这是第二个全马，经过冬天的训练没想到最后跑了303.51，这次PB提高了23分，可能是越来越懂跑步，知道如何跑，如何练，所有的积累都会在比赛中慢慢体现出来，这一次后离全马破三更接近了，只有4分钟不到的时间，所以下一场目标很直接就是破三，这一年能力的提高在随后参加的各类比赛中都有不错的成绩名次，半马PB到了84分20秒，奉化山地取得了名次，甚至有的比赛还站台了，可以说达到了自己一</p><p style="text-align: center;"><img src="http://pic2.iranshao.com/o_1csmc124c1qge1t5t151h116h1mhs23.jpg!watermark"></p><p><br></p><p>个巅峰，我以为可以这样一直下去，因为还在进步，还没到达瓶颈，但其实很多不安的因素也在这种情况下发生，鄞州马拉松前后有些隐形伤慢慢体现，随后跟踺伤疼爆发，而我不以为然，还训练了一二个月，最终实在不行停止了训练一个月，但这伤疼一点都没有好转，最后选择去上海针灸就诊，伤才慢慢好转，在伤势好转后又加强了训练，并改正了技术动作，把原来的高步频改到180加大了步幅，为了提高跑步效率减少伤病，但改技术动作是一个有风险的事，以至于让我膝盖又意外受伤，这一休养又是几个月，这连续的伤病持续了有11个月，我只能练练停停，别说提高了，连比赛都没法正常参加，那时真的有想放弃，也许因为还有一丝信念中存在，还有没有完成的目标，一直坚持渡过了</p><p style="text-align: center;"><img src="http://pic2.iranshao.com/o_1csmc1trn1rku1art1d3511amu122d.jpg!watermark"></p><p><br></p><p>那些不堪回首的日子，在17年的5月复出参加了一场“十公里”小比赛跑了38分多，前15名，在那之后一切又恢复正常开始了训练。在复出之后的首个目标还是破三，这次选了9月的北马，但回恢加训练时间必竟很短4个月而已，那年夏天我练的很急，引起了足底颈膜炎，就这样带着伤去参加了比赛，比赛前没有太多的想法因为按训练水平反应觉得破三还是勉强，但比赛让我跑个310内到303的成绩对我来说毫无意义可言，哪怕PB再快一分钟或二分钟也是没意思，所以比赛中我看到北大300兔子就果断跟了上去，一大堆想要破三的人抱团在一起，我跑到28公里开始有点跟不住了，足底的影响，训练的不足在后半程开始表露出来，在34公里前还能维持4分15秒破三的速度，但之后就开始彻底崩盘，那种崩让我记忆尤深，后半程一路的抽筋，在终点前最后200米看着时间是3小时零8分我想再怎么样也要跑进310吧，</p><p style="text-align: center;"><img src="http://pic2.iranshao.com/o_1csmc370u10vs48013gv187o180s31.jpg!watermark"></p><p><br></p><p>可是一加速又马上抽筋，路边的观众喊着加油加油，但我泪忍不住往下流，不是我疼的想哭，而是我非常疼恨自己能力不行，为什么会跑成这样，比完后我没有和别人交流太多，那种强烈的自尊心让我觉得311的完赛成绩是一种耻辱。回宁波后我重新调整训练计划，每周安排了间歇训练，水平就在那一个月猛的上去了，在11月——12月我参加了三场半马比赛，因为下半年我没有报什么全马，所以拿着半马当训练，第一场82分半，第二场竟然一样成绩也是82分半，第三场跑到81分58秒，虽然全马成绩没突破，但半马的水平还是一直在PB状态，就这样接着半马以赛代练，我的训练也越加成熟，成绩和能力慢慢在提高，在2018年1月初就能以30公里用4分12的配速跑完，当时我觉得自己半只脚迈入破三行列，我相信再练二个月到比赛时，一定能更稳定的破三，能破的更多一点，可是往往很多意想不到的事就在你最好的时候出现，这一次我身体检查不好，生了病，需要休养，就这样在第二次达到巅峰时又一次停止了训练，这一停整整4个月，没进行任何运动，真的没有出过汗的感觉。</p><p style="text-align: center;"><img src="http://pic2.iranshao.com/o_1csmc419jiar15qj18l71qor13p53b.jpg!watermark"></p><p><br></p><p><inline style="background-color: initial;">&nbsp; &nbsp; &nbsp; &nbsp;年初的意外，让我非常沮丧，说真的那段治疗的日子只有自己知道，那时才意识到跑步并不是最重要的，身体健康才是第一位，经历了三年的跑步生涯看透了太多，有风有雨到最后心平静了许多，回归最初，记的当初为什么开始，如今追求的是什么，在5月病情稳定后开始慢慢的恢复跑步，当时只是抱着锻练的心态回来，但4个月的空白和第一次比这重头开始太难了，4个月不运动不跑步，没有力量训练，没有进行任何体育运动，完全把自己架出体育这个圈子，对一个长年有运动爱好的人来说非常非常的疼苦，没有流汗的感觉是很奇怪的，好在时间充足慢慢开始，但刚开始的训练是非常艰难的，随便一跑心率就180，刚开始我就坚持7公里，一周跑个三次，然后第一个月后开始加到４次，但距离都很短只有７公里，６月中旬开始加距离，不多１０公里这样，有一次连跑９天，但距离都不长，我怕跑太快跑过量身体有反应，就这样又安全的渡过６月，到了７月感觉身体差不多可以稳定了，再慢慢加到１４公里，那时心率等开始有点恢复正常水平了，７月底确定身体再无异羔，我就开始准备下半年的全马比赛，当然目标很明确跑一场破三的全马，进入备赛期我就和以前的锻练状态不一样了，训练方式也改到一周５练，在最热的夏天比17年更早的投入间歇训练，不同前二年，我把以前学习到的，训练过的方式都进行总结，调整理出一套适合自己的方法开始强化训练，第一不受伤，第二稳定进步，进行备战期我很少跑１０公里以下的距离，除非身体真的太累跑个１０公里慢跑，７月有间歇，有慢跑，有马拉松配速跑，有乳酸跑，每周有强度有变化，在夏天最难的是跑长距离，但今年夏天很多次还是坚持跑了下来，到了８月在跑友的邀请下慢慢加入合练中，进行一些间歇训练等，其实刚开始我是挺累挺难的，必竟恢复时间短，整体水平和能力还没有达到比较理想的状态，但我觉得有一起合练的机会挺有促进意义所以还是要硬着上，就这样慢慢的自己练，和大家一起练，很多时候和大家一起顶着温度在操场上进行着强度训练，所有的辛苦付出终有回报，能力在恢复，我感觉自己能力回来的那天很可能会突破上一次，好比玩游戏升级打怪，自己努力修练总有一天成仙，我喜欢这种感觉。抱着这种心态进入了九月，这是一个比赛月，北马开始了，今年我没报名参加，我报了十一月的杭马，我把第四场全马放着我首马的地方，也把这次定为破三之战，我知道杭马比起北马，上马，无锡难一点，因为三十公里后才是杭马最经典的路段也是最难的路段，好比波士顿的伤心坡所以杭马一般不太好跑成绩，但做为挑战我不惧怕这些，所以还是支持首选杭州，必竟这里是我非常喜欢的一个城市，九月我为自己制定了一个训练计划表，为了督促自己能完成所有的训练，还有更好的执行所以我必须要求自己有训练计划，这样我才能不放松自己，然后一步步的去完成一切，训练表是最后７周，前面一个月其实做的还可以，跑了二次３０公里，一次３０公里４１３配速，一次３０公里４２０配速，每周有间歇，８００－３０００米不等，还有慢跑，平跑等，九月还参加了一个７公里的小比赛，可惜跑错了路，但夏天的训练还是有体现，前二年这种天气下根本跑不了３４０这样的比赛配速，但今年可以，说明我的训练方法还是可行，到了十月，又意外的发现脚底有伤疼出现，影响落地，疼的很利害，后来是二只脚底都有不同的疼苦，所以整个十月只在二号那天跑了一次２２公里，后面的训练日子因为伤疼的关系跑的很慢，或很短，当中还参加了一个鄞州公园半路，跑到１４公里就退赛了，人生第一次退赛，因为后一周有一个比较重要的甬马团体赛，我希望那场比赛就算疼也要跑下来，所以这次就决定退赛了，但回去后发现第二天脚弓的地方又肿了，后面的一周我把能治疗缓解的方法都用上，只希望比赛不要疼太利害，跑进８４分半马就可以了，但一到比赛就像打了鸡血一样上去就是干，我前面有点收着，因为有鄞州公园跑退赛的阴影一直怕脚伤的痛疼又传上来，但是这一路跑的比我去年的半马还快，一路还在不停的追着前面的人，也有其它团队的人在我身后干扰影响，浪费了不少体能多跑了一些路，跑到20公里的时候我都不觉得自己快要BP了，就是这种拼尽全力下离终点最后500米突然开始岔气，那种疼痛让人无法难受，配速也掉到了4分外，去年长宁最后终点前也是这样的情况但这次我坚持不停不走，忍着疼痛最后冲过终点，跑了80分58秒，半程排名28，但我们团体成绩排名第二，就这样带着胜利的喜悦进入最后的大考－2018杭州国际马拉松。</inline><br></p><p style="text-align: center;"><img src="http://pic2.iranshao.com/o_1csmc67tg1p2p15kthg31c66l1r3l.jpg!watermark"></p><p style="text-align: center;"><img src="http://pic2.iranshao.com/o_1csmc6hkj9ht1rv7i7q1c94krc3v.jpg!watermark"></p><p><inline style="background-color: initial;">&nbsp; &nbsp; &nbsp; &nbsp; 说到杭马这次是我第二次参加，没想到一隔就是三年，这三年来经历了初涩，成长，成熟，对于跑步看到很多看透很多，2018年回归跑步后，我减少了很多群体活动，我很明确的知道自己为什么跑步，目标是什么，需要做到什么，而不是跟风一样玩跑团，搞噱头，反而喜欢自己跑跑，提升水平，喜欢低调安静，朋友圈也没有那么多跑步有关的内容，因为不需要再证明给别人看，我有在跑步，我跑的水平如何，简单让我回到最初开始的样子，但对于杭马我有不一样的情怀，因为这是当初开始的地方，所以我希望全马能在这里实现最初许下的诺言——全马破三。全马破三对于有些人来说可能很遥远，可能这辈子都达不到或接近，对于一般精英来说可能是一个坎或是一个大目标，很多人接近三小时，或一直无法达到，有说三年达到小有天赋，五年达到全凭努力，我觉得自己没什么天赋，因为我当初目标是一年或一年半做到，现在都第三年了，在跑量上我不算多，杭马前最多九月325公里，月配速429，跑量是我跑步三年里最多的一个月，虽然我只有一半的时间在跑，但事实就是最多的一次，十月只跑了230公里，因为有伤疼在影响，对于杭马的成绩预测鉴于前期一直有系统训练，加上甬马半程的成绩，我打消了赛前因为伤病和训练量不足缺少信心的念头，还是决定冲击一下三小时，因为我隐约感觉自己还是能做到，同时也觉得跑场全马不破三的比赛对我没有任何意义，这样我还参加比赛干嘛还不如自己跑跑，所以说干就干，比赛一开枪我就稳住节奏，跑的时候也并没有看表，虽然近期马拉松配速训练的比较少，但对于体感还是有自己的认知，基本知道跑在什么配速上不用去频繁看表，果然前面几公里比较稳定都在410内，但天气有点闷热很快就开始出汗，心率也比平时高，我在想是不是今天状态不好，跑过十公里，脚上的疼苦感开始出现但我决定保持配速哪怕跑完这场不能再跑，跑到14公里遇见第一座大桥，上桥后就感觉到无力有想放弃的念头出现，感觉自己完全没有从甬马中恢复体能，就这样坚持到了折返点20公里，当时的平均配速还是比较理想在410，决定再坚持下去，开始带上耳机听起了音乐至少人能兴奋一阵子，又跑过25公里，疲劳再加剧这时候更多的是心里戏，想着一出出的过去经历，鼓励自己前进加油，路上还遇到一个个李宁追风的成员，这些都是PB在253内的高手，我看高手都崩了我也还好嘛，心里庆幸自己没出太大壮况，但十月训练量的不足从26公里开始体现出来，配速掉出410，只能压在415内，我知道差不多只能这样了，415配速我还是能接受的，必竟破三只要415配速就够了，今天我不追求跑259还是255，只要跑进三小时就成，跑到31公里时遇到了力哥，他前几周已经跑过二场全马，今天身体状态也不好，已经开始崩了，我上去后他让我先走，事后他说看着我远去的身影知道这次我硬气了，当然必须硬撑都跑到这份上了怎么可以半途而废，我一点都不敢停留继续前进，30公里一过心里的决心就更加强大：我要跑进3小时，后面还有12公里，我一定可以做到，那时候我根本没有怀疑过自己。杭马大家都知道31公里钱江大桥开始才是最虐人的赛段，而我们跑马的人一般在３０—３５公里开始出现极点，再加上路面高低起伏的坡度，可以想像很多人都倒在最后通住胜利的路上，但我不敢在这里倒下，比起北马当时跑破三的情况不管配速还是身体状态，至少这次非常接近破三，应该说目前是提前几分钟的，我只想快点冲过终点，因为这一刻压抑了太久太久。</inline><br></p><p style="text-align: center;"><img src="http://pic2.iranshao.com/o_1csmc7rs3i8f13l11rmq4d9nmk4a.jpg!watermark"></p><p><br></p><p style="text-align: center;"><img src="http://pic2.iranshao.com/o_1csmc7rs3sp61cbo13am7ql1cob4b.jpg!watermark"></p><p><br></p><p><o></o></p><p><o></o></p><p>&nbsp; &nbsp; &nbsp; &nbsp;在最后４１公里时小腿上抽筋的感觉涌了上来，那一刻让我想北马后半程抽了５次的情景，说真的那种恐惧油然而生，但随着一声呐喊把这种感觉立即清除，在马上路边快速的进行拉伸接着继续跑，我只能减小步幅动作，还好终点就在眼前，我打消所有杂念，最后冲过终点，那一刻眼中留有泪水和北马时的不同，这一次是内心的情绪终于得到释放，没有人知道这几年经历过的痛苦，挫折，也许就是这样养成了一个强大的内心，明明跑马拉松很虐人，但我一直在努力，为了这个目标我等了太久了，我认为竞技体育还是以追求成绩为主，但成绩只是对自己，因为成绩的提升是对自己所有努力付出的肯定，这种成就感让人觉得欣慰，当然追求这一切需要付出很多努力和代价，可能是工作，生活少的缺失，对亲人的陪伴减少，对于身边好友的疏远，对于自己其它的兴趣爱好饮食生活作息都有控制，付出过多少，失去了多少，没参于其中的人怎么会懂，而人总有一天我们还是会回归最初，我也觉得自己不可能一直长期这样猛练，也许破三后会停止追求，也许还会有下一个目标，但不管未来如何我知道即使不在比赛场上，也一定还会在跑步的路上，我是韩七燮，跑步是我最喜欢的运动，而现在的我更需要的是好好休息一段时间，谢谢看完全文的你。<o></o></p><p style="text-align: center;"><img src="http://pic2.iranshao.com/o_1csmca9p210llidfp311c60lea4o.jpg!watermark"></p><p><br></p><p><o> </o></p><p><o></o></p>
+              </div>
+            </div>
+
+            <p>
+                <a href="/bundled_races/859" class="mob-label-irs">2019杭州马拉松</a>
+              
+            </p>
+
+            <div class="mod-article-tags hidden-xs">
+              <h4>
+                <span class="label label-default article-tag">
+                  <a href="javascript:void(0);" style="cursor:default;">“跑出我PB”杭马原创有奖活动</a>
+                </span>
+              </h4>
+            </div>
+              <br>
+              <div class="mod-article-social">
+                <ul class="bottom-share-content share-group js-share-group bdsharebuttonbox">
+  <li>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">
+      <i class="fa fa-weibo"></i>新浪微博</a>
+    </li>
+  <li>
+    <a href="javascript:void(0);" class="bds_weixin js-qrcode share_code" data-name="weixin" data-url="http://iranshao.com/diaries/215642?utm_campaign=diary&amp;utm_medium=weixin&amp;utm_source=pcshare" title="微信扫一扫分享">
+      <i class="fa fa-weixin"></i><span>分享到微信</span>
+</a>    <div class="js-diary-qrcode" width="100" height="100" style="display: none" ></div>
+  </li>
+  <li>
+    <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣">
+      <i class="fa"></i><span>豆瓣</span>
+    </a>
+  </li>
+</ul>
+
+<script>
+  $(function(){
+    $(".share_code").bind("mouseenter", function(){
+      $(".js-diary-qrcode").show()
+    })
+    $(".share_code").bind("mouseleave", function(){
+      $(".js-diary-qrcode").hide()
+    })
+  })
+  window._bd_share_config = {
+    common : {
+      bdText : '【杭马—梦开始的地方】',
+      bdDesc : '       以前做队里小编的时候有为队友编辑过很多文章，但那时没有一次写过自己，有时问起回答就是全马破三后再写，...',
+      bdUrl : 'http://iranshao.com/diaries/215642?utm_campaign=%E6%9D%AD%E9%A9%AC%E2%80%94%E6%A2%A6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%9C%B0%E6%96%B9&amp;utm_medium=none&amp;utm_source=pcshare',
+      bdPic : 'https://pic.iranshao.com/photo/image/46eef4e4611ef9b0ab28748042390b94.jpg!660x360'
+    },
+    share : [{
+      "bdSize" : 16
+    }],
+    selectShare : [{
+      "bdselectMiniList" : ['qzone','tqq','kaixin001','bdxc','tqf']
+    }]
+  }
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+<style type="text/css">
+  .bottom-share-content a {
+    font-size: 14px!important;
+    padding: 0 10px;
+    margin-right: 8px;
+    display: inline-block;
+    background-color: #eeeeee;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #717171;
+  }
+  .bottom-share-content a {
+    background-image: none!important;
+    height: auto!important;
+    line-height: 40px!important;
+  }
+  .bottom-share-content a:hover {
+    color: #ff5000;
+  }
+  .bottom-share-content li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+  }
+  .bottom-share-content .js-diary-qrcode {
+    top: 60px;
+    left: 8px;
+    position: absolute;
+    z-index: 1;
+  }
+</style>
+                <div class="mod-vote">
+                  <div class="mod-article-vote">
+                    <a id="diaries-215642" class="votable votable2 " href="/login" data-position="点赞" data-button-name="赞">
+  <span class="thumb-icon"></span>
+  <span class="vote-count">
+    6
+  </span>
+  <span class="vote-text">
+    赞
+  </span>
+</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mod-article-copyright">
+                <p>
+                  本文著作权归作者本人所有，未经许可不得转载。文章仅代表作者看法，不代表本站观点。如有不同见解，原创频道欢迎您来分享。来源：爱燃烧 — 
+                  http://iranshao.com/diaries/215642
+                </p>
+              </div>
+
+              <div class="mod-article-author card visible-xs visible-sm">
+                <a href="/people/irs_1d4299" class="user_avatar_link" title="韩七燮">
+                  <img alt="韩七燮" class="photo" src="https://avatar.iranshao.com/profile/avatar/6424f10adf55b52ab65db50229762459.jpg!small" />
+</a>
+                <h3>
+                  <a href="/people/irs_1d4299">韩七燮</a>
+                </h3>
+                <p>
+                  
+                </p>
+              </div>
+          </div>
+            <div class="mod card" id="discussioncomments">
+              <div class="mod-article-reply">
+                <form accept-charset="UTF-8" action="/replies" class="simple_form reply" data-remote="true" id="create_reply" method="post" novalidate="novalidate"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="hjAoDh9Zg05mq8evaOn8hY34tot5GItrpCth0ucpJKo=" /></div>
+  <input id="repliable_type" name="repliable_type" type="hidden" value="Diary" />
+  <input id="repliable_id" name="repliable_id" type="hidden" value="215642" />
+
+  <div class='form-group'>
+    <label class="control-label" for="reply_body">回复</label>
+      <div>您需要<a href="/login" class="js-modal-login" data-position="回复">登录</a>才能回复</div>
+    <div id="reply_quote"></div>
+    <textarea class="form-control" cols="40" disabled="disabled" id="reply_body" maxlength="5000" name="reply[body]" placeholder="说点什么" rows="3">
+</textarea>
+    <span class='error body'></span>
+  </div>
+  
+  <div class="form-group">
+    <input class="btn btn btn-success pull-left disabled" name="commit" type="submit" value="提交" />
+  </div>
+</form>
+
+<script id="quote-tmpl" type="text/tmpl-x">
+  <div class="at-reply">
+    <a href="#" class="close">&times;</a>
+    <input type="hidden" name="reply[reply_to_id]" value="{%=o.replyId%}" />
+    <div class="quote">
+      <span class="content">{%=o.replyBody%}</span>
+      <a href="{%=o.replyUserPage%}" target="_blank" class="user">{%=o.replyNickname%}</a>
+    </div>
+  </div>
+</script>
+              </div>
+                <ol class="comments" id="comments">
+                  <li id="r125501" data-reply-id="125501" data-reply-body="写的真好！对跑马有追求的人有很大的学习意义。不能急功近利，唯有系统的训练并坚持！" data-reply-nickname="袁锐昌" data-reply-user-page="/people/8f4295e49a">
+  
+    <a href="/people/8f4295e49a" class="user-avatar-component-block"><img alt="17d86042374159d5de81ba7fcb6bed11" src="https://avatar.iranshao.com/profile/avatar/17d86042374159d5de81ba7fcb6bed11.jpg!small" /><div class="user-content"><div class="user-avatar-component-block-content"><span class="user-nickname">袁锐昌</span><span class="user-level-label" style="background: linear-gradient(to bottom right, #DEDFED, #9496B1);">Lv.3</span></div><div class="user-avatar-component-block-other">
+      <div class="time">2018-11-20 11:36:36</div>
+</div></div></a>
+  <div class="comment-body">
+
+        写的真好！对跑马有追求的人有很大的学习意义。不能急功近利，唯有系统的训练并坚持！
+
+
+  </div>
+
+  <p class="comment-meta">
+    <span class="pull-right">
+      
+      
+      <a href="#create_reply" class="at">回应</a>
+    </span>
+  </p>
+</li><li id="r125506" data-reply-id="125506" data-reply-body="太牛了，要怎样才能跑到你这样子" data-reply-nickname="书蔬鱼猪" data-reply-user-page="/people/5d10b01fcd">
+  
+    <a href="/people/5d10b01fcd" class="user-avatar-component-block"><img alt="9ee1e437b57bafd273e4877b41eea579" src="https://avatar.iranshao.com/profile/avatar/9ee1e437b57bafd273e4877b41eea579.jpg!small" /><div class="user-content"><div class="user-avatar-component-block-content"><span class="user-nickname">书蔬鱼猪</span><span class="user-level-label" style="background: linear-gradient(to bottom right, #F8E9BE, #D6BF7E);">Lv.10</span></div><div class="user-avatar-component-block-other">
+      <div class="time">2018-11-20 12:26:58</div>
+</div></div></a>
+  <div class="comment-body">
+
+        太牛了，要怎样才能跑到你这样子
+
+
+  </div>
+
+  <p class="comment-meta">
+    <span class="pull-right">
+      
+      
+      <a href="#create_reply" class="at">回应</a>
+    </span>
+  </p>
+</li><li id="r125512" data-reply-id="125512" data-reply-body="半马破2 本大叔的追求" data-reply-nickname="金狮虎" data-reply-user-page="/people/81d17bd5e5">
+  
+    <a href="/people/81d17bd5e5" class="user-avatar-component-block"><img alt="73a5cff911af7fd84f437885a3a98174" src="https://avatar.iranshao.com/profile/avatar/73a5cff911af7fd84f437885a3a98174.jpg!small" /><div class="user-content"><div class="user-avatar-component-block-content"><span class="user-nickname">金狮虎</span><span class="user-level-label" style="background: linear-gradient(to bottom right, #DEDFED, #9496B1);">Lv.7</span></div><div class="user-avatar-component-block-other">
+      <div class="time">2018-11-20 13:18:51</div>
+</div></div></a>
+  <div class="comment-body">
+
+        半马破2 本大叔的追求
+
+
+  </div>
+
+  <p class="comment-meta">
+    <span class="pull-right">
+      
+      
+      <a href="#create_reply" class="at">回应</a>
+    </span>
+  </p>
+</li><li id="r125514" data-reply-id="125514" data-reply-body="这成绩~~~~太棒了" data-reply-nickname="KK0011" data-reply-user-page="/people/636a60f5e6">
+  
+    <a href="/people/636a60f5e6" class="user-avatar-component-block"><img alt="D7f42d32b1d520f66dc704fb380099a5" src="https://avatar.iranshao.com/profile/avatar/d7f42d32b1d520f66dc704fb380099a5.jpeg!small" /><div class="user-content"><div class="user-avatar-component-block-content"><span class="user-nickname">KK0011</span><span class="user-level-label" style="background: linear-gradient(to bottom right, #DEDFED, #9496B1);">Lv.7</span></div><div class="user-avatar-component-block-other">
+      <div class="time">2018-11-20 13:25:40</div>
+</div></div></a>
+  <div class="comment-body">
+
+        这成绩~~~~太棒了
+
+
+  </div>
+
+  <p class="comment-meta">
+    <span class="pull-right">
+      
+      
+      <a href="#create_reply" class="at">回应</a>
+    </span>
+  </p>
+</li><li id="r125542" data-reply-id="125542" data-reply-body="自律，勤勉，坚持，要有决心去做，才有努力的方向" data-reply-nickname="韩七燮" data-reply-user-page="/people/irs_1d4299">
+  
+    <a href="/people/irs_1d4299" class="user-avatar-component-block"><img alt="6424f10adf55b52ab65db50229762459" src="https://avatar.iranshao.com/profile/avatar/6424f10adf55b52ab65db50229762459.jpg!small" /><div class="user-content"><div class="user-avatar-component-block-content"><span class="user-nickname">韩七燮</span><span class="user-level-label" style="background: linear-gradient(to bottom right, #DEDFED, #9496B1);">Lv.3</span></div><div class="user-avatar-component-block-other">
+      <div class="time">2018-11-20 16:47:58</div>
+</div></div></a>
+  <div class="comment-body">
+      <blockquote class="quote">
+        太牛了，要怎样才能跑到你这样子
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/people/5d10b01fcd" target="_blank">书蔬鱼猪</a>
+      </blockquote>
+
+        自律，勤勉，坚持，要有决心去做，才有努力的方向
+
+
+  </div>
+
+  <p class="comment-meta">
+    <span class="pull-right">
+      
+      
+      <a href="#create_reply" class="at">回应</a>
+    </span>
+  </p>
+</li><li id="r125543" data-reply-id="125543" data-reply-body="达到自己的目标成绩就好，同样也是胜利者" data-reply-nickname="韩七燮" data-reply-user-page="/people/irs_1d4299">
+  
+    <a href="/people/irs_1d4299" class="user-avatar-component-block"><img alt="6424f10adf55b52ab65db50229762459" src="https://avatar.iranshao.com/profile/avatar/6424f10adf55b52ab65db50229762459.jpg!small" /><div class="user-content"><div class="user-avatar-component-block-content"><span class="user-nickname">韩七燮</span><span class="user-level-label" style="background: linear-gradient(to bottom right, #DEDFED, #9496B1);">Lv.3</span></div><div class="user-avatar-component-block-other">
+      <div class="time">2018-11-20 16:48:38</div>
+</div></div></a>
+  <div class="comment-body">
+      <blockquote class="quote">
+        半马破2 本大叔的追求
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/people/81d17bd5e5" target="_blank">金狮虎</a>
+      </blockquote>
+
+        达到自己的目标成绩就好，同样也是胜利者
+
+
+  </div>
+
+  <p class="comment-meta">
+    <span class="pull-right">
+      
+      
+      <a href="#create_reply" class="at">回应</a>
+    </span>
+  </p>
+</li><li id="r125574" data-reply-id="125574" data-reply-body="破3真是每个业余跑马选手的追求，希望有一天能达到（好像在软件学院见到过大神）" data-reply-nickname="Kenzo" data-reply-user-page="/people/Fhawkk">
+  
+    <a href="/people/Fhawkk" class="user-avatar-component-block"><img alt="951756ca5c92e72e9ca294e4057a1f0a" src="https://avatar.iranshao.com/profile/avatar/951756ca5c92e72e9ca294e4057a1f0a.jpeg!small" /><div class="user-content"><div class="user-avatar-component-block-content"><span class="user-nickname">Kenzo</span><span class="user-level-label" style="background: linear-gradient(to bottom right, #F8E9BE, #D6BF7E);">Lv.8</span></div><div class="user-avatar-component-block-other">
+      <div class="time">2018-11-21 10:04:32</div>
+</div></div></a>
+  <div class="comment-body">
+
+        破3真是每个业余跑马选手的追求，希望有一天能达到（好像在软件学院见到过大神）
+
+
+  </div>
+
+  <p class="comment-meta">
+    <span class="pull-right">
+      
+      
+      <a href="#create_reply" class="at">回应</a>
+    </span>
+  </p>
+</li><li id="r125613" data-reply-id="125613" data-reply-body="训练课表哪里有啊" data-reply-nickname="书蔬鱼猪" data-reply-user-page="/people/5d10b01fcd">
+  
+    <a href="/people/5d10b01fcd" class="user-avatar-component-block"><img alt="9ee1e437b57bafd273e4877b41eea579" src="https://avatar.iranshao.com/profile/avatar/9ee1e437b57bafd273e4877b41eea579.jpg!small" /><div class="user-content"><div class="user-avatar-component-block-content"><span class="user-nickname">书蔬鱼猪</span><span class="user-level-label" style="background: linear-gradient(to bottom right, #F8E9BE, #D6BF7E);">Lv.10</span></div><div class="user-avatar-component-block-other">
+      <div class="time">2018-11-21 12:24:20</div>
+</div></div></a>
+  <div class="comment-body">
+      <blockquote class="quote">
+        自律，勤勉，坚持，要有决心去做，才有努力的方向
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/people/irs_1d4299" target="_blank">韩七燮</a>
+      </blockquote>
+
+        训练课表哪里有啊
+
+
+  </div>
+
+  <p class="comment-meta">
+    <span class="pull-right">
+      
+      
+      <a href="#create_reply" class="at">回应</a>
+    </span>
+  </p>
+</li><li id="r125680" data-reply-id="125680" data-reply-body="嗯，我有见过你" data-reply-nickname="韩七燮" data-reply-user-page="/people/irs_1d4299">
+  
+    <a href="/people/irs_1d4299" class="user-avatar-component-block"><img alt="6424f10adf55b52ab65db50229762459" src="https://avatar.iranshao.com/profile/avatar/6424f10adf55b52ab65db50229762459.jpg!small" /><div class="user-content"><div class="user-avatar-component-block-content"><span class="user-nickname">韩七燮</span><span class="user-level-label" style="background: linear-gradient(to bottom right, #DEDFED, #9496B1);">Lv.3</span></div><div class="user-avatar-component-block-other">
+      <div class="time">2018-11-21 22:24:23</div>
+</div></div></a>
+  <div class="comment-body">
+      <blockquote class="quote">
+        破3真是每个业余跑马选手的追求，希望有一天能达到（好像在软件学院见到过大神）
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/people/Fhawkk" target="_blank">Kenzo</a>
+      </blockquote>
+
+        嗯，我有见过你
+
+
+  </div>
+
+  <p class="comment-meta">
+    <span class="pull-right">
+      
+      
+      <a href="#create_reply" class="at">回应</a>
+    </span>
+  </p>
+</li><li id="r125681" data-reply-id="125681" data-reply-body="自己编写的，有很长一段时间学习跑步知识，书籍加各类公号，还有一点平时跑步心得经验，所以根据自己平时工作休息等安排一个适合自己的训练计划表" data-reply-nickname="韩七燮" data-reply-user-page="/people/irs_1d4299">
+  
+    <a href="/people/irs_1d4299" class="user-avatar-component-block"><img alt="6424f10adf55b52ab65db50229762459" src="https://avatar.iranshao.com/profile/avatar/6424f10adf55b52ab65db50229762459.jpg!small" /><div class="user-content"><div class="user-avatar-component-block-content"><span class="user-nickname">韩七燮</span><span class="user-level-label" style="background: linear-gradient(to bottom right, #DEDFED, #9496B1);">Lv.3</span></div><div class="user-avatar-component-block-other">
+      <div class="time">2018-11-21 22:26:38</div>
+</div></div></a>
+  <div class="comment-body">
+      <blockquote class="quote">
+        训练课表哪里有啊
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/people/5d10b01fcd" target="_blank">书蔬鱼猪</a>
+      </blockquote>
+
+        自己编写的，有很长一段时间学习跑步知识，书籍加各类公号，还有一点平时跑步心得经验，所以根据自己平时工作休息等安排一个适合自己的训练计划表
+
+
+  </div>
+
+  <p class="comment-meta">
+    <span class="pull-right">
+      
+      
+      <a href="#create_reply" class="at">回应</a>
+    </span>
+  </p>
+</li><li id="r125714" data-reply-id="125714" data-reply-body="好吧，我还是百度下好了" data-reply-nickname="书蔬鱼猪" data-reply-user-page="/people/5d10b01fcd">
+  
+    <a href="/people/5d10b01fcd" class="user-avatar-component-block"><img alt="9ee1e437b57bafd273e4877b41eea579" src="https://avatar.iranshao.com/profile/avatar/9ee1e437b57bafd273e4877b41eea579.jpg!small" /><div class="user-content"><div class="user-avatar-component-block-content"><span class="user-nickname">书蔬鱼猪</span><span class="user-level-label" style="background: linear-gradient(to bottom right, #F8E9BE, #D6BF7E);">Lv.10</span></div><div class="user-avatar-component-block-other">
+      <div class="time">2018-11-22 11:24:29</div>
+</div></div></a>
+  <div class="comment-body">
+      <blockquote class="quote">
+        自己编写的，有很长一段时间学习跑步知识，书籍加各类公号，还有一点平时跑步心得经验，所以根据自己平时工作休息等安排一个适合自己的训练计划表
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/people/irs_1d4299" target="_blank">韩七燮</a>
+      </blockquote>
+
+        好吧，我还是百度下好了
+
+
+  </div>
+
+  <p class="comment-meta">
+    <span class="pull-right">
+      
+      
+      <a href="#create_reply" class="at">回应</a>
+    </span>
+  </p>
+</li><li id="r125755" data-reply-id="125755" data-reply-body="希望下次还有机会见，当面指教" data-reply-nickname="Kenzo" data-reply-user-page="/people/Fhawkk">
+  
+    <a href="/people/Fhawkk" class="user-avatar-component-block"><img alt="951756ca5c92e72e9ca294e4057a1f0a" src="https://avatar.iranshao.com/profile/avatar/951756ca5c92e72e9ca294e4057a1f0a.jpeg!small" /><div class="user-content"><div class="user-avatar-component-block-content"><span class="user-nickname">Kenzo</span><span class="user-level-label" style="background: linear-gradient(to bottom right, #F8E9BE, #D6BF7E);">Lv.8</span></div><div class="user-avatar-component-block-other">
+      <div class="time">2018-11-22 16:57:34</div>
+</div></div></a>
+  <div class="comment-body">
+      <blockquote class="quote">
+        嗯，我有见过你
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/people/irs_1d4299" target="_blank">韩七燮</a>
+      </blockquote>
+
+        希望下次还有机会见，当面指教
+
+
+  </div>
+
+  <p class="comment-meta">
+    <span class="pull-right">
+      
+      
+      <a href="#create_reply" class="at">回应</a>
+    </span>
+  </p>
+</li><li id="r128998" data-reply-id="128998" data-reply-body="加油♡" data-reply-nickname="徐彤" data-reply-user-page="/people/irs_016313">
+  
+    <a href="/people/irs_016313" class="user-avatar-component-block"><img alt="9f71bde1151e27cd73f887aa36d578ca" src="https://avatar.iranshao.com/profile/avatar/9f71bde1151e27cd73f887aa36d578ca.jpeg!small" /><div class="user-content"><div class="user-avatar-component-block-content"><span class="user-nickname">徐彤</span><span class="user-level-label" style="background: linear-gradient(to bottom right, #F8E9BE, #D6BF7E);">Lv.15</span></div><div class="user-avatar-component-block-other">
+      <div class="time">2019-02-06 21:42:47</div>
+</div></div></a>
+  <div class="comment-body">
+
+        加油♡
+
+
+  </div>
+
+  <p class="comment-meta">
+    <span class="pull-right">
+      
+      
+      <a href="#create_reply" class="at">回应</a>
+    </span>
+  </p>
+</li>
+                </ol>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-md-offset-1">
+        <div class="side-bar-user card hidden-xs hidden-sm">
+          <a href="/people/irs_1d4299" class="avatar" data-button-name="查看用户详情" target="_blank" title="韩七燮">
+            <img alt="韩七燮" class="photo" src="https://avatar.iranshao.com/profile/avatar/6424f10adf55b52ab65db50229762459.jpg!small" />
+</a>          <span class='user-nickname'>
+            <a href="/people/irs_1d4299" data-button-name="查看用户详情" target="_blank">韩七燮</a>
+          </span>
+          <ul>
+            <li><a href="/people/irs_1d4299/diaries" data-button-name="查看用户原创" target="_blank"><p class='number'>1</p><p>原创</p></a></li>
+            <li><a href="/people/irs_1d4299/races" data-button-name="查看用户参赛" target="_blank"><p class='number'>0</p><p>参赛</p></a></li>
+            <li><a href="/people/irs_1d4299/followers" data-button-name="查看用户关注TA" target="_blank"><p class='number'>0</p><p>关注TA</p></a></li>
+          </ul>
+        </div>
+
+
+        <div style="padding-top:10px" class='image'>
+              <a href="https://s.click.taobao.com/B07XwGw#" class="js-sensors-event " data-event="bannerClick" data-sa="{&quot;position&quot;:&quot;固定广告&quot;,&quot;bannerText&quot;:&quot;https://pic.iranshao.com/photo/image/016740df4f7b91d5deea34f3d43c7ad1.jpg&quot;,&quot;bannerURL&quot;:&quot;https://s.click.taobao.com/B07XwGw#&quot;,&quot;itemIndexDup&quot;:1}" target="_blank" title="">
+                <img alt="" src="https://pic.iranshao.com/photo/image/016740df4f7b91d5deea34f3d43c7ad1.jpg!cover" width="100%" />
+</a>        </div>
+
+        <div style="padding-top:10px">
+              <a href="http://iranshao.com/subjects/52#" class="js-sensors-event " data-event="bannerClick" data-sa="{&quot;position&quot;:&quot;分流广告&quot;,&quot;bannerText&quot;:&quot;一入越野深似海丨从越野小白到跑山大神&quot;,&quot;bannerURL&quot;:&quot;http://iranshao.com/subjects/52#&quot;,&quot;itemIndexDup&quot;:1}" target="_blank" title="一入越野深似海丨从越野小白到跑山大神">
+                <img alt="一入越野深似海丨从越野小白到跑山大神" src="https://pic.iranshao.com/photo/image/2738f828d89febe6d8ec636a5cabc0d5.jpg!cover" width="100%" />
+</a>        </div>
+
+
+
+
+          <div class="modside hidden-xs">
+            <div class="mod-hd">
+              <h2>相关比赛</h2>
+            </div>
+            <ol class="diaries-recent-race-list">
+              <li>
+  <a href="/races/859#banner_id=pu0210101_215642" class="js-sensors-event " data-event="bannerClick" data-sa="{&quot;bannerText&quot;:&quot;2019杭州马拉松&quot;,&quot;bannerURL&quot;:&quot;/races/859&quot;,&quot;position&quot;:&quot;相关比赛&quot;,&quot;itemIndexDup&quot;:1}" target="_blank" title="2019杭州马拉松">
+    <span class="race-img">
+      <img alt="14e4f6326651a0b6a64feedf303f377-7dda4ddaceff1e8a504a8e6e45714d1b.png!80x80" src="https://pic3.iranshao.com/photo/image/14e4f6326651a0b6a64feedf303f377-7dda4ddaceff1e8a504a8e6e45714d1b.png!80x80-4eea59276c9b66cb1b2d8222a01088db.png!80x80" title="2019杭州马拉松" />
+    </span>
+    <strong>2019杭州马拉松</strong>
+    <div class="desc">
+      2019-11-04  &nbsp; 杭州
+    </div> 
+    <div class='desc'>
+      <span class='glyphicon glyphicon-heart'></span>
+      4人关注
+      <p>
+        
+        
+      </p>
+    </div>
+</a></li>  
+
+            </ol>
+          </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="share_contral">
+    <div class="vote-up">
+      <a id="diaries-215642" class="votable votable2 " href="/login" data-position="点赞" data-button-name="赞">
+  <span class="thumb-icon"></span>
+  <span class="vote-count">
+    6
+  </span>
+  <span class="vote-text">
+    
+  </span>
+</a>
+    </div>
+    <a href="#discussioncomments">
+      <div class="img_wrap">
+        <img src="/assets/detail_comment_gray.png"/>
+        <img src="/assets/detail_comment_white.png"/>
+      </div>
+      <span>13</span>
+    </a>
+    <a href="javascript:void(0);" onclick="showShareList()">
+      <div class="img_wrap">
+        <img src="/assets/detail_share_gray.png"/>
+        <img src="/assets/detail_share_white.png"/>
+      </div>
+    </a>
+  </div>
+  <ul class="common-share-list js-share-group bdsharebuttonbox" id="share_list">
+  <li class="bds_weixin">
+    <span>微信扫一扫</span>
+    <div class="js-diary-qrcode2" width="100" height="100" style="display: block; margin-top: 8px;" ></div>
+  </li>
+  <li><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a></li>
+  <li><a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣">豆瓣</a></li>
+</ul>
+
+<script>
+  window._bd_share_config = {
+    common : {
+      bdText : '【杭马—梦开始的地方】',
+      bdDesc : '       以前做队里小编的时候有为队友编辑过很多文章，但那时没有一次写过自己，有时问起回答就是全马破三后再写，...',
+      bdUrl : 'http://iranshao.com/diaries/215642?utm_campaign=%E6%9D%AD%E9%A9%AC%E2%80%94%E6%A2%A6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%9C%B0%E6%96%B9&amp;utm_medium=none&amp;utm_source=pcshare',
+      bdPic : 'https://pic.iranshao.com/photo/image/46eef4e4611ef9b0ab28748042390b94.jpg!660x360'
+    },
+    share : [{
+      "bdSize" : 16
+    }]
+  }
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+</div>
+
+<script type="text/javascript">
+  window.globalInfo = {
+    title: "杭马—梦开始的地方",
+    cover: "http://pic2.iranshao.com/o_1csmbrset15hp1ash1imtnve1su7h.jpg!168x168",
+    desc: "       以前做队里小编的时候有为队友编辑过很多文章，但那时没有一次写过自己，有时问起回答就是全马破三后再写，也许这是心中的一个坎，全马破三也是当初刚开始跑步时定下的目标成绩，但过了好几年却一直没做到，不是自己不努力，可能明明中有些过程必须经历，不然注定不完美..."
+  };
+  JSBridge.setTitle({ title: '杭马—梦开始的地方' });
+  JSBridge.setShare({
+    title: "杭马—梦开始的地方",
+    cover: "http://pic2.iranshao.com/o_1csmbrset15hp1ash1imtnve1su7h.jpg!168x168",
+    desc: "       以前做队里小编的时候有为队友编辑过很多文章，但那时没有一次写过自己，有时问起回答就是全马破三后再写，也许这是心中的一个坎，全马破三也是当初刚开始跑步时定下的目标成绩，但过了好几年却一直没做到，不是自己不努力，可能明明中有些过程必须经历，不然注定不完美...",
+    url: "http://iranshao.com/diaries/215642",
+    shareable: { referable_id: 215642, act: 'share_diary' }
+  });
+
+  function showShareList() {
+    document.getElementById('share_list').style.display='block';
+    event.stopPropagation();
+    $(document).click(function(){
+        $("#share_list").hide();
+    });
+  }
+</script>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="content-bottom"></div>
+
+    <footer class="hide" id="footer-m">
+  <p style="">2019 © 爱燃烧 iranshao.com All rights reserved.</p>
+  <p class="switchStyle">
+    <span><a href="/m">手机版</a></span>
+    <span>电脑版</span>
+  </p>
+</footer>
+
+<footer id="footer" class="hidden-xs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="copyright-txt">
+          <div class="logo-gray"><a href="/">爱燃烧</a></div>
+          <p>© Copyright 爱燃烧 2019. All rights reserved.<br>(<a href="http://www.miitbeian.gov.cn" target="blank" title="沪ICP备14009403号-2">沪ICP备14009403号-2)</a></p>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="footer-irs">
+          <h4>爱燃烧</h4>
+          <ul>
+            <li><a href="/about" title="关于我们">关于我们</a></li>
+            <li><a href="/terms#contact" title="联系我们">联系我们</a></li>
+            <li><a href="/joinus" title="加入我们">加入我们</a></li>
+            <li><a href="/terms#friendlink" title="友情链接">友情链接</a></li>
+            <li><a href="/terms#terms" title="爱燃烧协议">爱燃烧协议</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6" style="padding-left:0 !important;padding-right: 0 !important;">
+        <div class="footer-social">
+          <div><h4>关注我们</h4></div>
+          <div class="sns-left">
+            <div class="sns-sina">
+              <strong><img alt="weibo" class="sns-icon" src="https://assets2.iranshao.com/assets/global/sns-weibo-946a5251e722c828df5f7bcc1ff697bd.png" />新浪微博</strong>
+              <ul>
+                <li><a href="http://weibo.com/airanshao" title="i爱燃烧" target="_blank">@i爱燃烧</a></li>
+                <li><a href="http://weibo.com/bisaikong" title="比赛控" target="_blank">@比赛控</a></li>
+                <li><a href="http://weibo.com/runningtopgear" title="运动尖货" target="_blank">@运动尖货</a></li>
+                <li><a href="https://weibo.com/intherace" title="@爱燃烧赛事助手" target="_blank">@爱燃烧赛事助手</a></li>
+                <li><a href="https://weibo.com/u/1885063543" title="@燃烧训练营" target="_blank">@燃烧训练营</a></li>
+                <li><a href="https://weibo.com/newsofrun" title="@跑道内参" target="_blank">@跑道内参</a></li>
+              </ul>
+            </div>
+            <div class="sns-zhihu">
+              <strong><img alt="zhihu" class="sns-icon" src="https://assets2.iranshao.com/assets/global/sns-zhihu-09ea3c93a7740b730ab57b91eb050502.png" />知乎</strong>
+              <ul>
+                <li><a href="https://www.zhihu.com/org/ai-ran-shao-46/activities" title="机构号@爱燃烧" target="_blank">机构号@爱燃烧</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="sns-weixin">
+            <strong><img src="/assets/global/sns-weixin.png" alt="wechat" class="sns-icon">微信</strong>
+            <ul>
+              <li>
+                <figure>
+                  <img alt="爱燃烧" src="https://assets2.iranshao.com/assets/global/qrcode-iranshao-32182d48994dc6b913a86fbfe4d6886e.png" />
+                  <figcaption class="qrcaption">爱燃烧</figcaption>
+                </figure>
+                <div class="sns-desc">
+                  每日推送精选媒体内容及官方资讯
+                </div>
+              </li>
+              <li>
+                <figure>
+                  <img alt="爱燃烧跑步家" src="https://assets2.iranshao.com/assets/global/qrcode-paobujia-b773d8de075d1d5fc70a12d5db98ca56.png" />
+                  <figcaption class="qrcaption">爱燃烧跑步家</figcaption>
+                </figure>
+                <div class="sns-desc">
+                  服务你的跑步运动社区
+                </div>
+              </li>
+              <li>
+                <figure>
+                  <img alt="爱燃烧赛事助手" src="https://assets2.iranshao.com/assets/global/qrcode-racehelper-0bc73c777bd52739f275851adb5145dd.jpg" />
+                  <figcaption class="qrcaption">爱燃烧赛事助手</figcaption>
+                </figure>
+                <div class="sns-desc">
+                  每日推送今日正在一键报名的赛事
+                </div>
+              </li>
+              <li>
+                <figure>
+                   <img alt="运动尖货" src="https://assets2.iranshao.com/assets/global/qrcode-gearlab-30d843918e7c7dba4f8b181516d757dc.png" />
+                   <figcaption class="qrcaption">运动尖货</figcaption>
+                </figure>
+                <div class="sns-desc">
+                  跑步的那些尖货都在这儿了
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div class="scroll-to-top hide" style="display: block;">
+      <img alt="To_top" src="https://assets2.iranshao.com/assets/to_top-1df6f60ec2f555d02792cf5cd10d4ae3.png" />
+    </div>
+
+      <div style="display:none">
+        <script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe1afc974687855fe8c7318ef56f0dbae' type='text/javascript'%3E%3C/script%3E"));
+</script>
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-40213891-1', 'auto');
+  ga('send', 'pageview');
+</script>
+      </div>
+
+    <div id="mobile-menu">
+  <div class="side_bar-container" id="side_bar-container" hidden>
+    <div class="side_bar">
+      <div class="side_bar-header">
+        <div class="side_bar-user">
+            <img alt="User-default" class="side_bar-avatar" src="https://assets2.iranshao.com/assets/user-default-198d47ca5b9491e38de05b28ea5746c0.png" />
+            <a href="/login" class="side_bar-a" data-ajax="false">
+              <div class="side_bar-name">登录/注册</div>
+            </a>
+        </div>
+        <div class="side_bar-users">
+          <a href="/login" class="side_bar-userlink">个人中心</a>
+          <a href="http://iranshao.com/settings/registrations/all" class="side_bar-userlink">我的报名</a>
+        </div>
+      </div>
+      <div class="side_bar-menu">
+        <a href="/m" class="side_bar-a">
+          <div class="side_bar-menu-item">首页</div>
+</a>        <a href="https://m.iranshao.com/races" class="side_bar-a">
+          <div class="side_bar-menu-item">比赛</div>
+</a>        <a href="http://iranshao.com/gear" class="side_bar-a">
+          <div class="side_bar-menu-item">装备</div>
+</a>        <a href="/m/articles" class="side_bar-a">
+          <div class="side_bar-menu-item">资讯</div>
+</a>        <a href="/diaries" class="side_bar-a">
+          <div class="side_bar-menu-item">原创</div>
+</a>        <a href="/m/trials" class="side_bar-a">
+          <div class="side_bar-menu-item">众测</div>
+</a>      </div>
+    </div>
+  </div>
+</div>
+<script>
+  $(function() {
+    $('#my-menu').on('click', function() {
+      $('.side_bar-container').show();
+      $('.side_bar').removeClass('fadeOutLeft').addClass('fadeInLeft');
+    })
+    $('.side_bar-container').on('click', function() {
+      $('.side_bar').removeClass('fadeInLeft').addClass('fadeOutLeft');
+      setTimeout(function() {
+        $('.side_bar-container').hide();
+      }, 290);
+    })
+    $('.side_bar').on('click', function(e) {
+      e.stopPropagation();
+    })
+  })
+</script>
+
+
+    
+  </body>
+</html>
