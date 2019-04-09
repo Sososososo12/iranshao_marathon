@@ -54,22 +54,29 @@ def getP_FName(itemlist):
     return name
 
 def getPFInfo(user_id):
+    p_id = []
     idall = []
     nameall = []
     followingnumber = getP_FNum(user_id)
-    numberall = followingnumber // 4 + 1
-    for pagenumber in range(1, numberall + 1):
-        item_content = get_FHtmlItem(user_id, pagenumber)
-        idx = getP_FId(item_content)
-        namex = getP_FName(item_content)
-        idall.extend(idx)
-        nameall.extend(namex)
-        print('第' + str(pagenumber) + '页信息载入完成')
-        time.sleep(5)
-    p_id = []
-    for num in range(followingnumber):
-        p_id.append('acelei000')
-    print('id：' + 'acelei000' + '的用户关注赛事信息已获取完成！')
+    if followingnumber==0:
+        p_id=[user_id]
+        idall = ['null']
+        nameall = ['null']
+        time.sleep(3)
+    else:
+        numberall = followingnumber // 4 + 1
+        for pagenumber in range(1, numberall + 1):
+            item_content = get_FHtmlItem(user_id, pagenumber)
+            idx = getP_FId(item_content)
+            namex = getP_FName(item_content)
+            idall.extend(idx)
+            nameall.extend(namex)
+            print('该用户第' + str(pagenumber) + '页信息载入完成')
+            time.sleep(5)
+        for num in range(followingnumber):
+            p_id.append(user_id)
+        print('id：' + user_id + '的用户关注赛事信息已获取完成！')
+
     return p_id,idall,nameall
 
 
