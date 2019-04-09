@@ -10,7 +10,7 @@ import lda
 import lda.datasets
 
 
-data=xlrd.open_workbook(filename=r'./hangzhou_comment.xls')
+data=xlrd.open_workbook(filename=r'./hangzhou_comment_sen2.xls')
 sheet1 = data.sheet_by_index(1)
 comment_input=sheet1.col_values(0)
 people_id=sheet1.col_values(1)
@@ -28,7 +28,7 @@ x = vectorizer.fit_transform(comment_output)
 analyze = vectorizer.build_analyzer()
 weight = x.toarray()
 
-model = lda.LDA(n_topics=10, n_iter=1500, random_state=1)
+model = lda.LDA(n_topics=8, n_iter=2000, random_state=1)
 model.fit(np.asarray(weight))  # model.fit_transform(X) is also available
 topic_word = model.topic_word_  # model.components_ also works
 # 文档-主题（Document-Topic）分布
@@ -52,12 +52,12 @@ for i, topic_dist in enumerate(topic_word):
 
 # print(type(doc_topic))
 # print(type(topic_word))
-numpy.savetxt('./art1.csv', doc_topic, delimiter=',')  # 将得到的文档-主题分布保存
-numpy.savetxt('./art2.csv', topic_word, delimiter=',',encoding='utf-8')
+numpy.savetxt('./art1topic8.csv', doc_topic, delimiter=',')  # 将得到的文档-主题分布保存
+numpy.savetxt('./art2topic8.csv', topic_word, delimiter=',',encoding='utf-8')
 
 # 输出前20篇文章最可能的Topic
 label = []
-for n in range(len(comment_output)):
+for n in range(len(doc_topic)):
     topic_most_pr = doc_topic[n].argmax()
     label.append(topic_most_pr)
     print("doc: {} topic: {}".format(n, topic_most_pr))
@@ -66,5 +66,5 @@ data1 = pd.DataFrame({'comment_txt':comment_output,
                       'number id':people_id,
                       'topic label':label,
                       })
-data1.to_excel(u'topic_base.xls', index=False, encoding='"utf_8_sig')
+data1.to_excel(u'topic8_base.xls', index=False, encoding='"utf_8_sig')
 print('信息写入完成！')

@@ -58,8 +58,8 @@ for i, topic_dist in enumerate(topic_word):
 
 # print(type(doc_topic))
 # print(type(topic_word))
-numpy.savetxt('./result/doc_topic.csv', doc_topic, delimiter=',')  # 将得到的文档-主题分布保存
-numpy.savetxt('./result/topic_word.csv', topic_word, delimiter=',',encoding='utf-8')
+# numpy.savetxt('./result/doc_topic.csv', doc_topic, delimiter=',')  # 将得到的文档-主题分布保存
+# numpy.savetxt('./result/topic_word.csv', topic_word, delimiter=',',encoding='utf-8')
 
 # 输出前10篇文章最可能的Topic
 label = []
@@ -68,9 +68,9 @@ for n in range(len(corpus)):
     label.append(topic_most_pr)
     print("doc: {} topic: {}".format(n, topic_most_pr))
 
-data1 = pd.DataFrame({'person_id':getpersonid.getIds(),
-                      'topic label':label,
-                      })
-data1.to_excel(u'topic_base.xls', index=False, encoding='"utf_8_sig')
-print('信息写入完成！')
+# data1 = pd.DataFrame({'person_id':getpersonid.getIds(),
+#                       'topic label':label,
+#                       })
+# data1.to_excel(u'topic_base.xls', index=False, encoding='"utf_8_sig')
+# print('信息写入完成！')
 

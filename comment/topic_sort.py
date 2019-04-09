@@ -13,10 +13,10 @@ maxtopic2_pro=[]
 maxtopic3_pro=[]
 
 # 读取文件并建为DataFrame格式
-data=pd.DataFrame(pd.read_csv('./art1topic.csv'))
+data=pd.DataFrame(pd.read_csv('./art1topic8.csv'))
 # 将num设置为索引index
 topic_data=data.set_index('comment_num')
-for i in range(1,topic_data.shape[0]):
+for i in range(1,topic_data.shape[0]+1):
     # 获取第一行的切片数，并且排序提取前3的值
     num = topic_data.loc[i]
     num_sort = num.sort_values(ascending=False)[:3]
@@ -43,6 +43,6 @@ data1 = pd.DataFrame({
                       'max topic2 pro': maxtopic2_pro,
                       'max topic3 pro': maxtopic3_pro,
                       })
-data1.to_excel(u'topic_propotion.xls', index=False, encoding='"utf_8_sig')
+data1.to_excel(u'topic8_propotion.xls', index=False, encoding='"utf_8_sig')
 print('信息写入完成！')
 
