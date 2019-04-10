@@ -21,7 +21,7 @@ sheet1 = data.sheet_by_index(2)
 user_id_set = sheet1.col_values(0)
 
 number=0
-for num in range(1,21):
+for num in range(1,501):
     number=number+1
     user_info = get_Pfollowing_event.getPFInfo(user_id_set[num])
     # 运行后返回的是个tuple，里面是多个返回的值（list）
@@ -36,5 +36,5 @@ data1 = pd.DataFrame({'p_id':user_id,
                       'name':event_name,
 
                       })
-data1.to_excel(u'acc_info_test200.xls', index=False, encoding='"utf_8_sig')
+data1.to_excel(u'acc_info_test500.xls', index=False, encoding='"utf_8_sig')
 print('信息写入完成！')

@@ -14,6 +14,11 @@ headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 
 def getP_FNum(p_id):
+    '''
+    获得用户关注赛事的数量值
+    :param p_id:
+    :return:
+    '''
     url = participant_site_based.format(p_id)
     http = urllib3.PoolManager()
     r = http.request('GET', url, headers=headers)
@@ -28,6 +33,12 @@ def getP_FNum(p_id):
     # print(int(following_num))
 
 def get_FHtmlItem(p_id,pagenum):
+    '''
+    获取该页下用户关注的赛事信息页
+    :param p_id:
+    :param pagenum:
+    :return:
+    '''
     url = participant_site_following.format(p_id,str(pagenum))
     http = urllib3.PoolManager()
     r = http.request('GET', url,)
@@ -38,6 +49,11 @@ def get_FHtmlItem(p_id,pagenum):
     return r_item
 
 def getP_FId(itemlist):
+    '''
+    获取关注的赛事的id
+    :param itemlist:
+    :return:
+    '''
     id = []
     for itemnum in range(len(itemlist)):
         r_id = itemlist[itemnum].xpath('a/@href')[0].replace(r'/races/', '')
@@ -46,6 +62,11 @@ def getP_FId(itemlist):
     return id
 
 def getP_FName(itemlist):
+    '''
+    获取挂住的赛事名称
+    :param itemlist:
+    :return:
+    '''
     name=[]
     for itemnum in range(len(itemlist)):
         r_name = itemlist[itemnum].xpath('a/text()')[0]
@@ -54,6 +75,13 @@ def getP_FName(itemlist):
     return name
 
 def getPFInfo(user_id):
+    '''
+    判断关注的赛事数量是否为0：
+    若为0，则在listitem中添加用户信息为null；
+    若不为0，则在listitem中添加用户信息，一行为单个用户关注的赛事
+    :param user_id:
+    :return:
+    '''
     p_id = []
     idall = []
     nameall = []
@@ -72,7 +100,7 @@ def getPFInfo(user_id):
             idall.extend(idx)
             nameall.extend(namex)
             print('该用户第' + str(pagenumber) + '页信息载入完成')
-            time.sleep(5)
+            time.sleep(3)
         for num in range(followingnumber):
             p_id.append(user_id)
         print('id：' + user_id + '的用户关注赛事信息已获取完成！')
