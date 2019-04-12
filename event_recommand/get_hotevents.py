@@ -56,7 +56,6 @@ data1 = pd.DataFrame({'race_id':race_id,
                       'race_time':race_time,
                       'race_follwoing':race_following
 
-
                       })
 data1.to_excel(u'race_info_test.xls', index=False, encoding='"utf_8_sig')
 print('信息写入完成！')

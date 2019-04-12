@@ -7,26 +7,28 @@ from lxml import etree
 import pandas as pd
 import time
 
-id = []
-name = []
-stats = []
-result = []
-result_info = []
-comment = []
-article_site_based='http://iranshao.com/races/{}/racers?page={}&type=done'
+article_site_based = 'http://iranshao.com/races/{}/racers?page={}&type=done'
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/"}
 
-def getParticipate_num(race_id):
-    race_partcipate_page=article_site_based.format(str(race_id),'1')
-    html=requests.get(race_partcipate_page).content
+
+def getParticipant_num(race_id):
+    race_partcipate_page = article_site_based.format(str(race_id), '1')
+    html = requests.get(race_partcipate_page).content
     selector = etree.HTML(html.decode('utf-8'))
     paticipant_page_num = selector.xpath('//ul[@class="pagination pagination-v1"]/li/a/text()')
-    all_page_num=paticipant_page_num[-2]
+    all_page_num = int(paticipant_page_num[-2])
     return all_page_num
 
-def getParticipant_info(race_id,pagenum):
 
-    race_partcipate_page=article_site_based.format(str(race_id),str(pagenum))
+def getParticipant_info(race_id, pagenum):
+    id = []
+    name = []
+    stats = []
+    result = []
+    result_info = []
+    comment = []
+
+    race_partcipate_page = article_site_based.format(str(race_id), str(pagenum))
     html = requests.get(race_partcipate_page).content
     selector = etree.HTML(html.decode('utf-8'))
     # paticipant_page_num = selector.xpath('//ul[@class="pagination pagination-v1"]/li/a/text()')
@@ -56,20 +58,6 @@ def getParticipant_info(race_id,pagenum):
         result_info.append(p_result_info)
         comment.append(p_comment)
 
+    return id, name, stats, result, result_info, comment
 
 
-for pagenumber in range(1001,1057):
-    getParticipant_info(583,pagenumber)
-    print('已完成载入关注人第 '+str(pagenumber)+' 页!')
-    time.sleep(5)
-
-
-data1 = pd.DataFrame({'id':id,
-                      'name': name,
-                      'stats(participating num)': stats,
-                      'result': result,
-                      'result_info': result_info,
-                      'comment': comment,
-                      })
-data1.to_excel(u'583user11.xls', index=False, encoding='"utf_8_sig')
-print('信息写入完成！')
