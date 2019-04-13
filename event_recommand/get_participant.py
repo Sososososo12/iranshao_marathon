@@ -15,8 +15,11 @@ def getParticipant_num(race_id):
     race_partcipate_page = article_site_based.format(str(race_id), '1')
     html = requests.get(race_partcipate_page).content
     selector = etree.HTML(html.decode('utf-8'))
-    paticipant_page_num = selector.xpath('//ul[@class="pagination pagination-v1"]/li/a/text()')
-    all_page_num = int(paticipant_page_num[-2])
+    participant_page_num = selector.xpath('//ul[@class="pagination pagination-v1"]/li/a/text()')
+    if participant_page_num!=[]:
+        all_page_num = int(participant_page_num[-2])
+    else:
+        all_page_num=0
     return all_page_num
 
 
@@ -29,7 +32,7 @@ def getParticipant_info(race_id, pagenum):
     comment = []
 
     race_partcipate_page = article_site_based.format(str(race_id), str(pagenum))
-    html = requests.get(race_partcipate_page).content
+    html = requests.get(race_partcipate_page,headers=headers).content
     selector = etree.HTML(html.decode('utf-8'))
     # paticipant_page_num = selector.xpath('//ul[@class="pagination pagination-v1"]/li/a/text()')
     particpant_item = selector.xpath('//ol[@class="menber-cards"]/li')
