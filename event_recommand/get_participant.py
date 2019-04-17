@@ -12,15 +12,18 @@ headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 
 def getParticipant_num(race_id):
+    # 判断了赛事参加者页面的页数，忽略了是否为单页
     race_partcipate_page = article_site_based.format(str(race_id), '1')
     html = requests.get(race_partcipate_page).content
     selector = etree.HTML(html.decode('utf-8'))
     participant_page_num = selector.xpath('//ul[@class="pagination pagination-v1"]/li/a/text()')
+    participant_list=selector.xpath('//ol[@class="menber-cards"]/li')
+    participant_list_num=len(participant_list)
     if participant_page_num!=[]:
         all_page_num = int(participant_page_num[-2])
     else:
         all_page_num=0
-    return all_page_num
+    return all_page_num,participant_list_num
 
 
 def getParticipant_info(race_id, pagenum):
