@@ -104,7 +104,7 @@ def getPFInfo(user_id):
         for num in range(followingnumber):
             p_id.append(user_id)
         print('id：' + user_id + '的用户关注赛事信息已获取完成！')
-        time.sleep(3)
+        time.sleep(1)
 
     return p_id,idall,nameall
 
