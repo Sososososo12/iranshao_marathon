@@ -3,8 +3,6 @@ import urllib3.request
 from lxml import etree
 import re
 import requests
-import pandas
-import numpy
 import time
 import xlwt
 import pandas as pd
@@ -114,7 +112,7 @@ def getU_PSinfo(itemlist):
         else:
             p_speed = 'null'
         permile_speed.append(p_speed)
-        print('3条参赛信息获取完成')
+        print(str(len(itemlist)) + '条参赛信息获取完成')
     return donetime, p_distance, permile_speed
 
 
@@ -188,31 +186,31 @@ def getUInfo(user_id):
             time.sleep(3)
         for num in range(len(r_idall)):
             p_id.append(user_id)
-        print('id：' + user_id + '的用户关注赛事信息已获取完成！')
+        print('id：' + user_id + '的用户关注赛事信息已获取完成！' + '共' + str(len(r_idall)) + '条已完成的赛事信息!')
         time.sleep(1)
 
     return p_id, partake_time, r_idall, nameall, race_plist1, race_plist2, race_plist3, allcomment
 
 
-user_id_test = '9891cb3665'
-allinfo = getUInfo(user_id_test)
-allinfolen = [len(allinfo[0]),
-              len(allinfo[1]),
-              len(allinfo[2]),
-              len(allinfo[3]),
-              len(allinfo[4]),
-              len(allinfo[5]),
-              len(allinfo[6]),
-              len(allinfo[7]),
-              ]
-data1 = pd.DataFrame({'p_id': allinfo[0],
-                      'p_time': allinfo[1],
-                      'r_id': allinfo[2],
-                      'r_name': allinfo[3],
-                      'd_time': allinfo[4],
-                      'distance': allinfo[5],
-                      'p_speed': allinfo[6],
-                      'comment': allinfo[7]
-                      })
-data1.to_excel(u'./user_partake_info_test.xls', index=False, encoding='"utf_8_sig')
-print('测试信息写入完成！')
+# user_id_test = '9891cb3665'
+# allinfo = getUInfo(user_id_test)
+# allinfolen = [len(allinfo[0]),
+#               len(allinfo[1]),
+#               len(allinfo[2]),
+#               len(allinfo[3]),
+#               len(allinfo[4]),
+#               len(allinfo[5]),
+#               len(allinfo[6]),
+#               len(allinfo[7]),
+#               ]
+# data1 = pd.DataFrame({'p_id': allinfo[0],
+#                       'p_time': allinfo[1],
+#                       'r_id': allinfo[2],
+#                       'r_name': allinfo[3],
+#                       'd_time': allinfo[4],
+#                       'distance': allinfo[5],
+#                       'p_speed': allinfo[6],
+#                       'comment': allinfo[7]
+#                       })
+# data1.to_excel(u'./user_done_participant/user_partake_info_test.xls', index=False, encoding='"utf_8_sig')
+# print('测试信息写入完成！')

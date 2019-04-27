@@ -90,7 +90,7 @@ def getPFInfo(user_id):
         p_id=[user_id]
         idall = ['null']
         nameall = ['null']
-        time.sleep(1)
+        time.sleep(2)
     else:
         numberall = followingnumber // 4 + 1
         for pagenumber in range(1, numberall + 1):
@@ -100,7 +100,7 @@ def getPFInfo(user_id):
             idall.extend(idx)
             nameall.extend(namex)
             print('该用户第' + str(pagenumber) + '页信息载入完成')
-            time.sleep(1)
+            time.sleep(2)
         for num in range(followingnumber):
             p_id.append(user_id)
         print('id：' + user_id + '的用户关注赛事信息已获取完成！')
