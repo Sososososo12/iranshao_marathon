@@ -56,7 +56,7 @@ def getU_PTime(itemlist):
         else:
             p_time = 'null'
         partake_time.append(p_time)
-        print('p_time获取完成')
+    print('p_time获取完成')
     return partake_time
 
 
@@ -112,7 +112,7 @@ def getU_PSinfo(itemlist):
         else:
             p_speed = 'null'
         permile_speed.append(p_speed)
-        print(str(len(itemlist)) + '条参赛信息获取完成')
+    print(str(len(itemlist)) + '条参赛信息获取完成')
     return donetime, p_distance, permile_speed
 
 
@@ -183,7 +183,7 @@ def getUInfo(user_id):
             race_plist3.extend(permile_timex)
             allcomment.extend(commentx)
             print('该用户第' + str(pagenumber) + '页信息载入完成')
-            time.sleep(3)
+            time.sleep(2)
         for num in range(len(r_idall)):
             p_id.append(user_id)
         print('id：' + user_id + '的用户关注赛事信息已获取完成！' + '共' + str(len(r_idall)) + '条已完成的赛事信息!')
