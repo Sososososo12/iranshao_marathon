@@ -26,7 +26,7 @@ def getP_FNum(p_id):
     selector = etree.HTML(htmlcontent)
     following_num_str = selector.xpath('//li[@role="presentation"]/a/text()')[0]
     following_num = re.findall('关注的\((.*?)\)', following_num_str)[0]
-    time.sleep(3)
+    time.sleep(1)
     print('已获取id为 '+p_id +'的关注赛事总数量!')
     return int(following_num)
 
@@ -90,7 +90,7 @@ def getPFInfo(user_id):
         p_id=[user_id]
         idall = ['null']
         nameall = ['null']
-        time.sleep(3)
+        time.sleep(2)
     else:
         numberall = followingnumber // 4 + 1
         for pagenumber in range(1, numberall + 1):
@@ -100,11 +100,11 @@ def getPFInfo(user_id):
             idall.extend(idx)
             nameall.extend(namex)
             print('该用户第' + str(pagenumber) + '页信息载入完成')
-            time.sleep(3)
+            time.sleep(2)
         for num in range(followingnumber):
             p_id.append(user_id)
         print('id：' + user_id + '的用户关注赛事信息已获取完成！')
-        time.sleep(1)
+        # time.sleep(1)
 
     return p_id,idall,nameall
 
