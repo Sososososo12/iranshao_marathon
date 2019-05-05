@@ -24,8 +24,8 @@ user_id_set = sheet1.col_values(0)
 user_id_len = len(user_id_set)
 startnum = 1
 stopnum = 501
-for num in range(8001,10001):
 
+for num in range(8001,12001):
     user_info = get_Pfollowing_event.getPFInfo(user_id_set[num])
     # 运行后返回的是个tuple，里面是多个返回的值（list）
     # 给每一个总list加上读取到的tuple中的对应list
@@ -39,10 +39,8 @@ data1 = pd.DataFrame({'p_id': user_id,
                       'id': event_id,
                       'name': event_name,
                       })
-
-data1.to_excel(u'./yuan/alluser_iFnfo_test10001.xls', index=False, encoding='"utf_8_sig')
-print('8001-10000的用户信息写入完成！')
-
+data1.to_excel(u'./yuan/alluser_iFnfo_test12000.xls', index=False, encoding='"utf_8_sig')
+print('8001-12000的用户信息写入完成！')
 
 # for inum in range(1, 20):
 #     if stopnum>user_id_len:

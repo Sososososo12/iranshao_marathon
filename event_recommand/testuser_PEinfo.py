@@ -23,7 +23,7 @@ d_time=[]
 distance=[]
 p_speed=[]
 comment=[]
-for user_index in range(15000,20000):
+for user_index in range(10000,15000):
     user_id_test=user_id_set[user_index]
     allinfo = get_user_partinrace.getUInfo(user_id_test)
     allinfolen = [len(allinfo[0]),
@@ -55,5 +55,6 @@ data1 = pd.DataFrame({'p_id': p_id,
                       'p_speed': p_speed,
                       'comment': comment
                       })
-data1.to_excel(u'./user_done_participant/user_partake_info_test20000.xls', index=False, encoding='"utf_8_sig')
+data1.to_excel(u'./user_done_participant/user_partake_info_test15000.xls', index=False, encoding='"utf_8_sig')
 print('测试信息写入完成！')
+
