@@ -31,7 +31,7 @@ sheet1 = data.sheet_by_index(1)
 user_id_set = sheet1.col_values(0)
 user_id_len = len(user_id_set)
 
-for stopnum in range(40000, user_id_len, 5000):
+for stopnum in range(45000, user_id_len, 5000):
     startnum = stopnum - 5000
     p_id = []
     p_time = []
